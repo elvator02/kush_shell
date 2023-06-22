@@ -35,7 +35,7 @@ This is a simple Linux Shell program written in C with the command line interfac
 Then, Clone the project
 
 ```bash
-  git clone https://github.com/your-username/kush_shell.git
+  git clone https://github.com/elvator02/kush_shell.git
 ```
 
 Go to the project directory
@@ -61,7 +61,7 @@ Run the shell
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/kush_shell.git
+  git clone https://github.com/elvator02/kush_shell.git
 ```
 Go to the project directory
 
