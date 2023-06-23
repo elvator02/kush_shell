@@ -21,7 +21,7 @@ if(args[1] != NULL ){
 
     char* file_path = "/tmp/hist.txt";
     
-       char* editor = "nano";  // Default text editor
+       char* editor = "nano";  // since we are using path name for text editor
     
 
     struct Node* ptr = head;

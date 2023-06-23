@@ -17,6 +17,7 @@ This is a simple Linux Shell program written in C with the command line interfac
     - echo: Display text.
     - history: View and execute previously entered commands.   
     - exit: Exit the shell.
+    - fc: gives the last command in a text editor(here nano, you can also use vim by changing editor name to vi in kush_fc).
 
 - Command Execution: The shell can execute external commands by forking a child process.
 - Command History: The shell maintains a history of previously entered commands.
@@ -103,9 +104,13 @@ Built-in commands
 - color: Gives color to shell. If want an emoji use this. Usage: color <color_or_emoji_name>.
   - available colours are- blue, yellow, red, cyan, green, reset.
   - available emoji - heart.
+- fc: opens nano editor with previous command typed. Usage:fc.
+  also you can get list of all previously typed commands. Usage:  
+  fc l.
 ## Acknowledgements
 
  - This project was made under ACM projects [ACM IITR](https://iitr.acm.org/#/)
  - Also found this good resource to get start with this project  [Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
- - to implement more emojis go to this [link](https://apps.timwhitlock.info/emoji/tables/unicode)
+ - To implement more emojis go to this [link](https://apps.timwhitlock.info/emoji/tables/unicode)
+ - To better understand about files and system editor for fc refer this [link](https://cboard.cprogramming.com/c-programming/181245-write-file-using-struct.html?highlight=open+file+linux)
 

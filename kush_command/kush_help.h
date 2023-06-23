@@ -70,5 +70,7 @@ int kush_help(char **args)
   printf("for echo, use the command 'echo write_anything...'\n\n");
   printf("for custom builtin, use the command 'builtin command'\n");
   printf("write your custom command in kush_builtin.h\n\n");
+  printf("for fc, use the command 'fc' to get nano editor with previously typed command\n");
+  printf("to get all previously typed commands use 'fc l'\n\n");
   return 1;
 }
