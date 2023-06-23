@@ -12,6 +12,7 @@
 #include"kush_command/kush_exit.h"
 #include"kush_command/kush_type.h"
 #include"kush_command/kush_builtin.h"
+#include"kush_command/kush_fc.h"
 
 
 int kush_launch(char **args)
@@ -148,7 +149,7 @@ int status;
 do{
     printf(">>");
     line = kush_read_line();
-    args = kush_split_line(line);// makes the line into arra of strings
+    args = kush_split_line(line);// makes the line into array of strings
     kush_add_hist(args);
     status = kush_execute(args);// returns 0 or 1 for the loop to continue
 

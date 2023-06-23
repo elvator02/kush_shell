@@ -9,6 +9,7 @@ int kush_alias(char **args);
 int kush_unalias(char **args);
 int kush_type(char **args);
 int kush_builtin(char **args);
+int kush_fc(char **args);
 
 char* builtin_str[] = {
    "cd",
@@ -21,6 +22,7 @@ char* builtin_str[] = {
    "unalias",
    "type",
    "builtin",
+   "fc"
 
 };
 
@@ -34,7 +36,9 @@ int(*builtin_func[]) (char**) = {
     &kush_alias,
     &kush_unalias,
     &kush_type,
-    &kush_builtin
+    &kush_builtin,
+    &kush_fc
+
 };
 
 int kush_total_builtins(){
