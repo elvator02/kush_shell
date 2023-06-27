@@ -3,6 +3,11 @@
 
 This is a simple Linux Shell program written in C with the command line interface and few builtin commands.  
 
+## Demo
+
+https://github.com/elvator02/kush_shell/assets/115696725/66e4daf6-b71b-43a2-af77-7bfebe6bd930
+
+
 
 ## Features
 
